@@ -41,12 +41,7 @@ bool isLeapYear(int birthYear) {
     else if (birthYear < 2022 && (birthYear%4 != 0 && birthYear%400 != 0)) {
         cout << birthYear << " was not a leap year.";
     }
-    else {
-        cout << "Did you enter a year?";
-    }
-
-
+    
     return isLeapYear;
-
 
 }
